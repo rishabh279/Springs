@@ -1,0 +1,10 @@
+package com.luv2code.springdemo;
+
+public class CricketCoach {
+	
+	private FortuneService fortuneservice;
+	
+	public void setFortuneService(FortuneService fortuneservice){
+		this.fortuneservice=fortuneservice;
+	}
+}
