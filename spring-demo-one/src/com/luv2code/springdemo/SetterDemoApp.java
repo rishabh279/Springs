@@ -19,5 +19,8 @@ public class SetterDemoApp {
 		System.out.println(theCoach.getEmail());
 		
 		System.out.println(theCoach.getTeam());
+		
+		
+		context.close();
 	}
 }

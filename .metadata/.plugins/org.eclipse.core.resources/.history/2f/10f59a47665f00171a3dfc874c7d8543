@@ -1,0 +1,7 @@
+package com.luv2code.com;
+
+public class HappyFortuneService implements FortuneService {
+	public String getFortuneService(){
+		return ""
+	}
+}

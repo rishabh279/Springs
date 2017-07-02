@@ -1,0 +1,17 @@
+package com.luv2code.com;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class RandomFortuneService implements FortuneService {
+	private String[] data={
+			
+	}
+	@Override
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

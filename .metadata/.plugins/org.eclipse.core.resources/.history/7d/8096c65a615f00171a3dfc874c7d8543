@@ -1,0 +1,6 @@
+package springannotationpractise;
+
+@component
+public class CricketCoach implements Coach{
+
+}

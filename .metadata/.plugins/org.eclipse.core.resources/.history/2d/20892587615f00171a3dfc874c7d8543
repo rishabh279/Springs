@@ -1,0 +1,14 @@
+package springannotationpractise;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class CricketCoach implements Coach{
+
+	@Override
+	public void getDailyWorkout() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

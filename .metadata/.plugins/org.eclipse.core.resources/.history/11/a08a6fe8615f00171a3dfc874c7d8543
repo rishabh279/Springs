@@ -1,0 +1,9 @@
+package springannotationpractise;
+
+public class AnnotationDemoApp {
+
+	public static void main(String[] args) {
+		//get config file from Spring Container
+	}
+
+}

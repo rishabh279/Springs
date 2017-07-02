@@ -1,0 +1,9 @@
+package com.luv2code.springdemo;
+
+public class BeanLifeCycle {
+	public static void main(String args[]){
+		//load spring configuration  file
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beanLifeCycle-applicationContext2.xml");
+	}
+
+}

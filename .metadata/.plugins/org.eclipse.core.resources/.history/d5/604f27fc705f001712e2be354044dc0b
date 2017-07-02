@@ -1,0 +1,40 @@
+package com.luv2code.com;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+//@Component("myCoach")
+@Component
+public class TennisCoach implements Coach {
+
+	private FortuneService fortuneService;
+	
+	
+	/*
+	@Autowired
+	TennisCoach(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}*/
+	
+	/*
+	@Autowired
+	public void setFortuneService(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+	}
+	*/
+	@Autowired
+	public void stuffSettingFortune(FortuneService fortuneService){
+		this.fortuneService=fortuneServoice;
+		
+	}
+	@Override
+	public String getDailyWorkout() {
+		return "Tennis Practise Daily 30min";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return fortuneService.getFortune();
+	}
+}
