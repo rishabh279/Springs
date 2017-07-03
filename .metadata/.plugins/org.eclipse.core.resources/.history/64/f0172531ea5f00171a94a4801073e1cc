@@ -1,0 +1,10 @@
+package com.luv2code.com;
+
+public class BeanAnnotationsDemoApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//load the config file from the spring container
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.luv2code.com;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class BeanAnnotationsDemoApp {
+
+	public static void main(String[] args) {
+		
+		//load the config file from the spring container
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+	
+		//get the beans from the container
+		Coach coach = context.getBeane("tennisCoach",);
+	}
+
+}
