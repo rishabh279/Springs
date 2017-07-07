@@ -9,6 +9,8 @@
 		<a href="hello/showForm">Click to see Form</a>
 			<br><br>
 		<a href="student/showForm">Click to see Form</a>
+			<br><br>
+		<a href="customer/showForm">Click to see the form</a>	
 		 
 	</body>
 
