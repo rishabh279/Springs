@@ -1,0 +1,9 @@
+package com.luv2code.springdemo.mvc;
+
+@Controller
+public class HelloWorldController {
+	@RequestMapping("/showForm")
+	public String showForm(){
+		return "helloworld-form";
+	}
+}

@@ -1,0 +1,10 @@
+package com.luv2code.springdemo.mvc;
+
+@Controller
+public class HelloWorldController {
+	
+	
+	public String showForm(){
+		return "helloworld-form";
+	}
+}
