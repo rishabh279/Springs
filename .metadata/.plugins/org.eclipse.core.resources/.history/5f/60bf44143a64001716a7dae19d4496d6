@@ -1,0 +1,10 @@
+package com.luv2code.springdemo.mvc.validation;
+
+import java.lang.annotation.RetentionPolicy;
+
+@Constraint(validatedBy=CourseCodeConstraintValidator.class)
+@Target({ElementType.METHOD,Element.FIELD})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface CourseCode {
+
+}
